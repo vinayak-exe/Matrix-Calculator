@@ -1,17 +1,6 @@
 # Matrix-Calculator
 # Matrix Calculator & C Programs Repository
 
-<p align="center">
-  <img src="https://dummyimage.com/1000x200/000/fff&text=Matrix+Calculator+%7C+C+Programs" alt="Project Banner" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/languages/top/your-username/your-repo" />
-  <img src="https://img.shields.io/github/repo-size/your-username/your-repo" />
-  <img src="https://img.shields.io/github/last-commit/your-username/your-repo" />
-  <img src="https://img.shields.io/github/license/your-username/your-repo" />
-</p>
-
 Welcome to my **Matrix Calculator & C Programs** repository! 👋
 
 This repo currently contains:
