@@ -1,8 +1,6 @@
 # Matrix-Calculator
 # Matrix Calculator & C Programs Repository
 
-# Matrix Calculator & C Programs Repository
-
 Welcome to my **Matrix Calculator & C Programs** repository! 👋
 
 This repo currently contains:
