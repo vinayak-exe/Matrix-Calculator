@@ -1,113 +1,110 @@
-# Matrix-Calculator
-# Matrix Calculator & C Programs Repository
+# Matrix Calculator 🧮✨
 
-Welcome to my **Matrix Calculator & C Programs** repository! 👋
+> **Your all‑in‑one Matrix Engine — fast, accurate, beautifully designed, and built to evolve 🚀🧮**
 
-This repo currently contains:
+[![Build Status](https://img.shields.io/badge/build-pending-lightgrey)](https://example.com) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-## 🚀 Matrix Calculator (Work in Progress)
+![banner](./assets/banner.png)
 
-I am building a full **Matrix Calculator in C**. As of now:
+**Short description**
 
-* ✔️ **Eigenvalue & Eigenvector calculator** is fully working.
-* 🔧 Working on adding:
+Matrix Calculator is a lightweight command-line & library tool for basic linear algebra operations. Right now it computes eigenvalues and eigenvectors for square matrices. Future plans include matrix addition, subtraction, multiplication, transpose, determinant, inverse and more.
 
-  * Matrix addition
-  * Matrix subtraction
-  * Matrix transpose
-  * Determinant calculation
-  * Inverse (planned)
+## 📌 Current Features
 
-Stay tuned—more features coming soon!
+✨ Clean CLI output
+📏 Currently supports **3×3 matrices** for eigenvalue & eigenvector calculations
+⚡ Fast eigenvalue & eigenvector computation
+🧩 Beginner‑friendly modular codebase
+🔧 Easy to extend with new operations
 
-## 🧑‍💻 Beginner‑Friendly C Programs
+* Compute eigenvalues and eigenvectors for real square matrices (currently optimized for **3×3 matrices**).
+* Read matrices from plain text files or standard input.
+* Small, beginner-friendly codebase designed for learning and extension.
 
-This repo also includes simple C programs to help beginners understand:
+## 🛠️ Roadmap / Planned Features
 
-* Loops & conditionals
-* Arrays
-* Strings
-* Functions
-* Basic mathematical operations
+* ➕ Addition & Subtraction
 
-## 📈 Intermediate‑Level C Programs
+* ✖️ Matrix Multiplication
 
-Some slightly advanced programs are also included, such as:
+* 🔁 Transpose
 
-* String manipulation tools
-* Searching & sorting logic
-* Small utilities
-* Pattern programs
+* 📐 Determinant & Inverse
 
-## 📂 Project Structure
+* 📊 Advanced linear algebra tools
+
+* 🎛️ Improved CLI with colors & flags
+
+* Matrix addition, subtraction
+
+* Matrix multiplication
+
+* Transpose, determinant and inverse
+
+* Support for different numeric types (float/double)
+
+* Improved CLI, better error handling and tests
+
+* Optional GUI or web front-end
+
+## ▶️ Usage
+
+## 📄 File Format
+
+* Plain text, rows separated by newlines, columns by spaces or tabs.
+* Square matrices only for eigen computations.
+
+## 🤝 Contribution
+
+Contributions, bug reports and feature requests are very welcome!
+
+* Fork the repo
+* Create a feature branch
+* Add tests for new behavior
+* Open a pull request
+
+Please follow the existing code style and add clear commit messages.
+
+## 👥 Authors ✨
+
+* **S. Vinayak** (Project Creator)
+* **Uzair Nasir** (Contributor / Collaborator)
+
+## License
+
+This project is open-source.
+
+## ⚠️ Limitations
+
+* Works only for **3×3 matrices**.
+* Computes eigenvalues accurately only when the **characteristic equation has exactly one positive real root** (other roots may be complex).
+
+## 📁 Project Structure
 
 ```
-📁 Matrix-Calculator-C-Repo
-│
-├── matrix_calculator/
-│   ├── eigenvalues.c
-│   ├── transpose.c
-│   ├── addition.c (coming soon)
-│   ├── subtraction.c (coming soon)
-│   ├── determinant.c (planned)
-│   └── inverse.c (planned)
-│
-├── beginner_programs/
-│   ├── loops.c
-│   ├── arrays.c
-│   ├── strings_basics.c
-│   └── patterns.c
-│
-├── intermediate_programs/
-│   ├── sorting.c
-│   ├── searching.c
-│   ├── string_tools.c
-│   └── utilities.c
-│
-└── README.md
+matrix-calculator/
+├── src/
+│   ├── eigen.c
+│   ├── operations.c
+│   ├── utils.c
+│   └── main.c
+├── include/
+│   ├── eigen.h
+│   ├── operations.h
+│   └── utils.h
+├── tests/
+│   ├── test_eigen.c
+│   ├── test_operations.c
+│   └── matrices/
+├── examples/
+│   └── matrix.txt
+├── assets/
+│   └── banner.png
+├── README.md
+└── Makefile
 ```
-
-## 💡 Purpose of This Repository
-
-I created this repository to:
-
-* Track my progress in learning C
-* Share working small projects
-* Build a complete Matrix Calculator from scratch
-* Help beginners by providing clean and understandable code
-
-## 🛠️ How to Run
-
-1. Clone the repo:
-
-   ```bash
-   git clone <your_repo_link>
-   ```
-2. Compile any C program using GCC:
-
-   ```bash
-   gcc filename.c -o output
-   ```
-3. Run it:
-
-   ```bash
-   ./output
-   ```
-
-## 👨‍💻 Author
-
-**S. Vinayak & Uzair Nasir**
-C programming learners working on building strong fundamentals and creating practical tools like a full matrix calculator.
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
-## 🤝 Contributions
-
-Since this is a learning-focused project, suggestions and improvements are always welcome!
 
 ---
 
-**Thanks for visiting!** ⭐
-Feel free to explore the code and drop a star if you like the work!
+
