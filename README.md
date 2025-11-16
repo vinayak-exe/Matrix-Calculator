@@ -2,10 +2,6 @@
 
 > **Your all‑in‑one Matrix Engine — fast, accurate, beautifully designed, and built to evolve 🚀🧮**
 
-[![Build Status](https://img.shields.io/badge/build-pending-lightgrey)](https://example.com) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-
-![banner](./assets/banner.png)
-
 **Short description**
 
 Matrix Calculator is a lightweight command-line & library tool for basic linear algebra operations. Right now it computes eigenvalues and eigenvectors for square matrices. Future plans include matrix addition, subtraction, multiplication, transpose, determinant, inverse and more.
@@ -47,8 +43,6 @@ Matrix Calculator is a lightweight command-line & library tool for basic linear 
 * Improved CLI, better error handling and tests
 
 * Optional GUI or web front-end
-
-## ▶️ Usage
 
 ## 📄 File Format
 
