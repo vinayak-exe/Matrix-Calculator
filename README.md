@@ -63,7 +63,7 @@ Please follow the existing code style and add clear commit messages.
 ## 👥 Authors ✨
 
 * **S. Vinayak** (Project Creator)
-* **Uzair Nasir** (Contributor / Collaborator)
+* **Uzair Nazir** (Contributor / Collaborator)
 
 ## License
 
